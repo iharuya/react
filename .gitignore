@@ -22,3 +22,9 @@ node_modules
 dist
 dist-ssr
 *.local
+
+# Comment out the line of the tool you use
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
