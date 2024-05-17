@@ -1,0 +1,26 @@
+{
+	"name": "react",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"fix": "biome check --apply --diagnostic-level=error .",
+		"fix:strict": "biome check --apply --diagnostic-level=info .",
+		"fix:unsafe": "biome check --apply-unsafe --verbose ."
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.7.3",
+		"@types/react": "^18.3.2",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react-swc": "^3.6.0",
+		"typescript": "^5.4.5",
+		"vite": "^5.2.11"
+	},
+	"packageManager": "pnpm@9.1.0+sha512.67f5879916a9293e5cf059c23853d571beaf4f753c707f40cb22bed5fb1578c6aad3b6c4107ccb3ba0b35be003eb621a16471ac836c87beb53f9d54bb4612724"
+}
