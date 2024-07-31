@@ -6,20 +6,20 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"fix": "biome check --apply --diagnostic-level=error .",
-		"fix:strict": "biome check --apply --diagnostic-level=info .",
-		"fix:unsafe": "biome check --apply-unsafe --verbose ."
+		"fix": "biome check --write --diagnostic-level=error .",
+		"fix:strict": "biome check --write --diagnostic-level=info .",
+		"fix:unsafe": "biome check --write --unsafe --verbose ."
 	},
 	"dependencies": {
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.7.3",
-		"@types/react": "^18.3.2",
+		"@biomejs/biome": "^1.8.3",
+		"@types/react": "^18.3.3",
 		"@types/react-dom": "^18.3.0",
-		"@vitejs/plugin-react-swc": "^3.6.0",
-		"typescript": "^5.4.5",
-		"vite": "^5.2.11"
+		"@vitejs/plugin-react-swc": "^3.7.0",
+		"typescript": "^5.5.4",
+		"vite": "^5.3.5"
 	}
 }
