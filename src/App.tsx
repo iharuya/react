@@ -1,5 +1,9 @@
-import { FC } from "react"
+import type { FC } from "react";
 
 export const App: FC = () => {
-	return <main>app</main>
-}
+	return (
+		<main>
+			<p className="animate-bounce">hello</p>
+		</main>
+	);
+};
